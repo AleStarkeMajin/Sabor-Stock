@@ -18,3 +18,10 @@ View your app in AI Studio: https://ai.studio/apps/1b2a13e3-7ff6-4d51-ae06-c8fff
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Nota sobre el historial del repositorio
+
+El historial del repositorio fue recreado localmente y subido al remoto el 2026-04-17.
+Se creó la etiqueta `recreated-history-20260417` apuntando al commit inicial del nuevo historial.
+
+Si necesitas el historial antiguo, contacta al administrador del proyecto; se mantuvo una copia de seguridad local llamada `.git.corrupt.<timestamp>` antes de eliminarla.
