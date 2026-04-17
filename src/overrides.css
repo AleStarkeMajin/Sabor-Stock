@@ -1,0 +1,22 @@
+/* Overrides to fix lint warnings and provide unprefixed line-clamp for compatibility */
+
+/* Ensure these replaced media elements are block-level (remove need for vertical-align) */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block !important;
+}
+
+/* Provide standard 'line-clamp' along with webkit-prefixed version for compatibility */
+[data-slot="select-value"] {
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
